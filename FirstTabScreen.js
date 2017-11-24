@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
-const FirstScreen = () => {
+const FirstScreen = ({navigator}) => {
     console.log('FirstScreen');
     return (
         <View>
             <Text>FirstScreen</Text>
+            <Button onPress={() => navigator.push({screen: 'example.SecondTabScreen'})} title="Press me" />
         </View>
     );
 };
