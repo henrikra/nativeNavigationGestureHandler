@@ -1,0 +1,3 @@
+rootProject.name = 'nativeNavigationGestureHandler'
+
+include ':app'
