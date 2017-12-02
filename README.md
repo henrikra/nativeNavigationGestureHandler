@@ -1,0 +1,1 @@
+This repository showcases the minimum setup when you want to use [react-native-gesture-handler](https://github.com/kmagiera/react-native-gesture-handler) and [react-native-navigation](https://github.com/wix/react-native-navigation) libraries together
